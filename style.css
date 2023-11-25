@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.iIrB9Rh8CQY1unpZ-yw3rgHaE8&pid=Api&P=0&h=220);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quiz-box {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+.options {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.option {
+    display: block;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.option:hover {
+    background-color: #333333;
+}
+
+#btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#btn:disabled {
+    background-color: #666666;
+    cursor: not-allowed;
+}
+
+#btn:hover {
+    background-color: #45a049;
+}
